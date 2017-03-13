@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Voting System</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="count.js"></script>
+</head>
+<body>
+	<div id="frame">
+		<div id="instructions">
+			<p id="user"></p>
+		</div>
+		<table style="width: 100%">
+			<tr>
+				<th colspan="2">Voting System</th>
+			</tr>
+			<tr>
+				<td>Candidate 1</td>
+				<td><input type="button" class="countClicks" id="btnCan1"
+					value="vote"></td>
+			</tr>
+			<tr>
+				<td>Candidate 2</td>
+				<td><input type="button" class="countClicks" id="btnCan2"
+					value="vote"></td>
+			</tr>
+			<tr>
+				<td>Candidate 3</td>
+				<td><input type="button" class="countClicks" id="btnCan3"
+					value="vote"></td>
+			</tr>
+			<tr>
+				<td>Candidate 4</td>
+				<td><input type="button" class="countClicks" id="btnCan4"
+					value="vote"></td>
+			</tr>
+			<tr>
+				<td>Candidate 5</td>
+				<td><input type="button" class="countClicks" id="btnCan5"
+					value="vote"></td>
+			</tr>
+			<tr id="resultrow" style="display: none">
+				<th colspan="2"><label>Results:</label> <br /> <label>Candidate1
+						has <span id="displayCount1">0</span> votes.
+				</label><br /> <label>Candidate2 has <span id="displayCount2">0</span>
+						votes.
+				</label><br /> <label>Candidate3 has <span id="displayCount3">0</span>
+						votes.
+				</label><br /> <label>Candidate4 has <span id="displayCount4">0</span>
+						votes.
+				</label><br /> <label>Candidate5 has <span id="displayCount5">0</span>
+						votes.
+				</label></th>
+			</tr>
+		</table>
+
+		<div id="resultDiv" class="resultDiv">
+			<input type="button" class="countClicksRes" id="btnResults"
+				value="Results">
+		</div>
+	</div>
+</body>
+</html>

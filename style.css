@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+#frame {
+	margin: 50px auto;
+	/* 	border:2px solid #ccc; */
+	width: 600px;
+	height: 600px;
+}
+
+th {
+	width: 499px;
+	height: 70px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+td {
+	width: 499px;
+	height: 73px;
+	text-align: center;
+	background-color: lightblue;
+	border: 1px solid black;
+}
+
+.countClicks, .countClicksRes {
+	padding: 5px;
+	border: 2px solid #ccc;
+	width: 100px;
+	height: 50px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.countClicks:hover, .countClicksRes:hover {
+	background-color: #555555;
+	color: white;
+}
+
+#resultDiv {
+	width: 100px;
+	height: 100pr;
+	margin: 10px auto;
+}
+
+#user {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Courier;
+}
